@@ -11,7 +11,7 @@ FolderIzquierda = fold + "/Izquierda"
 # Función para capturar una imagen desde la cámara web
 def capture_image():
     # Inicializar la captura de video desde la cámara web
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
@@ -32,7 +32,7 @@ def capture_image():
             filename = f"captura_{timestamp}.jpg"
 
             # Guardar la imagen en disco
-            cv2.imwrite(FolderIzquierda + "/" + filename, frame)
+            cv2.imwrite(FolderAdelante + "/" + filename, frame)
             print(f"Imagen guardada como {filename} - {capture_count + 1}")
         else:
             mensaje_error = "Se produjo un error debido a que hubo un problema con la camara"
