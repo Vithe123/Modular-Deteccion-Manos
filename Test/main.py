@@ -3,7 +3,7 @@ from keras.models import load_model
 import numpy as np
 
 # Ruta del archivo .h5 del modelo
-ruta_modelo = r"H:\Usuarios\ArturoVithe\Escritorio\Archivos\CUCEI\Modular\Modular-Deteccion-Manos\Training\modelo.h5"
+ruta_modelo = r"H:\Usuarios\ArturoVithe\Escritorio\Archivos\CUCEI\Modular\Modular-Deteccion-Manos\Training\modelo_final.h5"
 
 # Cargar el modelo
 modelo = load_model(ruta_modelo)

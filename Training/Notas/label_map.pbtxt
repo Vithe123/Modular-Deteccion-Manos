@@ -1,0 +1,16 @@
+item { 
+	name:'Adelante'
+	id:1
+}
+item { 
+	name:'Atras'
+	id:2
+}
+item { 
+	name:'Derecha'
+	id:3
+}
+item { 
+	name:'Izquierda'
+	id:4
+}

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Atras</folder>
+	<filename>captura_1688881187_mod.jpg</filename>
+	<path>H:\Usuarios\ArturoVithe\Escritorio\Archivos\CUCEI\Modular\Modular-Deteccion-Manos\Training\Dataset\Atras\captura_1688881187_mod.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>240</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Atras</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>29</ymin>
+			<xmax>193</xmax>
+			<ymax>157</ymax>
+		</bndbox>
+	</object>
+</annotation>
