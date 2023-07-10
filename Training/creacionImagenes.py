@@ -32,7 +32,7 @@ def capture_image():
             filename = f"captura_{timestamp}.jpg"
 
             # Guardar la imagen en disco
-            cv2.imwrite(FolderIzquierda + "/" + filename, frame)
+            cv2.imwrite(FolderAdelante + "/" + filename, frame)
             print(f"Imagen guardada como {filename} - {capture_count + 1}")
         else:
             mensaje_error = "Se produjo un error debido a que hubo un problema con la camara"
