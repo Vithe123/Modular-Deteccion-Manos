@@ -3,21 +3,21 @@ import time
 
 fold = "Redimencionadas"
 
-FolderAdelante = fold + "/Adelante"
-FolderAtras = fold + "/Atras"
-FolderDerecha = fold + "/Derecha"
-FolderIzquierda = fold + "/Izquierda"
+FolderAdelante = fold + "/Adelante" #
+FolderAtras = fold + "/Atras" #
+FolderDerecha = fold + "/Derecha" #
+FolderIzquierda = fold + "/Izquierda" #
 
 # Función para capturar una imagen desde la cámara web
 def capture_image():
     # Inicializar la captura de video desde la cámara web
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 240)
 
     # Número de veces para capturar imágenes
-    num_captures = 100
+    num_captures = 15
 
     # Capturar imágenes el número de veces especificado
     capture_count = 0
